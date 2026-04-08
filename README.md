@@ -67,7 +67,6 @@ src/nova_guard_api/
 alembic/        — DB migrations
 tests/          — Pytest suite
 main.py         — local dev entrypoint
-PLAN.md         — domain + business requirements
 ```
 
 ## Requirements
