@@ -1,0 +1,1069 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "type": "text",
+      "id": "t0",
+      "x": 330,
+      "y": 10,
+      "text": "Nova Guard API - Detailed Engineering View",
+      "fontSize": 28,
+      "strokeColor": "#1e1e1e",
+      "width": 517.7265625,
+      "height": 35,
+      "baseline": 25,
+      "updated": 1775560852061,
+      "version": 2,
+      "versionNonce": 182872401
+    },
+    {
+      "type": "rectangle",
+      "id": "zone_client",
+      "x": 20,
+      "y": 80,
+      "width": 250,
+      "height": 760,
+      "backgroundColor": "#dbe4ff",
+      "fillStyle": "solid",
+      "opacity": 30,
+      "strokeColor": "#4a9eed",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "zcl",
+      "x": 95,
+      "y": 95,
+      "text": "Client Layer",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 90.4658203125,
+      "height": 35,
+      "baseline": 16,
+      "updated": 1775560852062,
+      "version": 2,
+      "versionNonce": 1275875391
+    },
+    {
+      "type": "rectangle",
+      "id": "zone_api",
+      "x": 300,
+      "y": 80,
+      "width": 360,
+      "height": 760,
+      "backgroundColor": "#e5dbff",
+      "fillStyle": "solid",
+      "opacity": 30,
+      "strokeColor": "#8b5cf6",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "zap",
+      "x": 430,
+      "y": 95,
+      "text": "API Layer",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 75.4716796875,
+      "height": 35,
+      "baseline": 16,
+      "updated": 1775560852062,
+      "version": 2,
+      "versionNonce": 97457969
+    },
+    {
+      "type": "rectangle",
+      "id": "zone_core",
+      "x": 690,
+      "y": 80,
+      "width": 490,
+      "height": 760,
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "opacity": 30,
+      "strokeColor": "#22c55e",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "zco",
+      "x": 880,
+      "y": 95,
+      "text": "Core + Data Layer",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 134.5869140625,
+      "height": 35,
+      "baseline": 16,
+      "updated": 1775560852062,
+      "version": 2,
+      "versionNonce": 1404432479
+    },
+    {
+      "type": "rectangle",
+      "id": "client",
+      "x": 50,
+      "y": 160,
+      "width": 180,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "client_txt",
+      "x": 63.5,
+      "y": 182.5,
+      "text": "API Consumers\n(curl/Postman/UI)",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 130.974609375,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852062,
+      "version": 2,
+      "versionNonce": 1596393745
+    },
+    {
+      "type": "rectangle",
+      "id": "docs",
+      "x": 50,
+      "y": 300,
+      "width": 180,
+      "height": 90,
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "docs_txt",
+      "x": 81.5,
+      "y": 322.5,
+      "text": "OpenAPI /docs\n/openapi.json",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 110.4873046875,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852062,
+      "version": 2,
+      "versionNonce": 1366723711
+    },
+    {
+      "type": "rectangle",
+      "id": "tests",
+      "x": 50,
+      "y": 440,
+      "width": 180,
+      "height": 90,
+      "backgroundColor": "#eebefa",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "tests_txt",
+      "x": 86,
+      "y": 462.5,
+      "text": "Pytest Suite\nRBAC + Rules",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 109.1689453125,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852063,
+      "version": 2,
+      "versionNonce": 275103473
+    },
+    {
+      "type": "rectangle",
+      "id": "obs",
+      "x": 50,
+      "y": 580,
+      "width": 180,
+      "height": 90,
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "obs_txt",
+      "x": 72.5,
+      "y": 602.5,
+      "text": "Rate-limit +\nProblem Details",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 116.4814453125,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852063,
+      "version": 2,
+      "versionNonce": 1628349599
+    },
+    {
+      "type": "rectangle",
+      "id": "routers",
+      "x": 340,
+      "y": 160,
+      "width": 280,
+      "height": 90,
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "routers_txt",
+      "x": 395,
+      "y": 180,
+      "text": "Versioned Routers\n/api/v1/*",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "width": 147.197265625,
+      "height": 35,
+      "baseline": 41,
+      "updated": 1775560852063,
+      "version": 2,
+      "versionNonce": 2014492881
+    },
+    {
+      "type": "rectangle",
+      "id": "mw",
+      "x": 340,
+      "y": 300,
+      "width": 280,
+      "height": 90,
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "mw_txt",
+      "x": 408,
+      "y": 322.5,
+      "text": "Middleware\nCORS + RateLimit",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 139.1572265625,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852063,
+      "version": 2,
+      "versionNonce": 1378793663
+    },
+    {
+      "type": "rectangle",
+      "id": "auth",
+      "x": 340,
+      "y": 440,
+      "width": 280,
+      "height": 90,
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "auth_txt",
+      "x": 399,
+      "y": 462.5,
+      "text": "Security Deps\nAPI Key + JWT(sub)",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 154.6259765625,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852064,
+      "version": 2,
+      "versionNonce": 935687857
+    },
+    {
+      "type": "rectangle",
+      "id": "cross",
+      "x": 340,
+      "y": 580,
+      "width": 280,
+      "height": 110,
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "cross_txt",
+      "x": 399,
+      "y": 602.5,
+      "text": "Cross-cutting\nETag + Idempotency\n+ Cursor Pagination",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 150.837890625,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852064,
+      "version": 2,
+      "versionNonce": 712460511
+    },
+    {
+      "type": "rectangle",
+      "id": "services",
+      "x": 740,
+      "y": 160,
+      "width": 220,
+      "height": 100,
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "services_txt",
+      "x": 782.5,
+      "y": 187.5,
+      "text": "Domain Services\nBusiness Rules",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 123.46875,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852064,
+      "version": 2,
+      "versionNonce": 1378187409
+    },
+    {
+      "type": "rectangle",
+      "id": "rules",
+      "x": 980,
+      "y": 160,
+      "width": 170,
+      "height": 180,
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "rules_txt",
+      "x": 990,
+      "y": 193.75,
+      "text": "Rules:\n- squad capacity\n- pilot for danger>7\n- quarantine rep>75\n- contraband checks\n- bounty > 10k gate",
+      "fontSize": 15,
+      "strokeColor": "#1e1e1e",
+      "width": 119.94140625,
+      "height": 35,
+      "baseline": 104,
+      "updated": 1775560852064,
+      "version": 2,
+      "versionNonce": 1735972095
+    },
+    {
+      "type": "rectangle",
+      "id": "orm",
+      "x": 740,
+      "y": 320,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "orm_txt",
+      "x": 778,
+      "y": 342.5,
+      "text": "SQLAlchemy ORM\nModels + Session",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 145.494140625,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 149569137
+    },
+    {
+      "type": "rectangle",
+      "id": "db",
+      "x": 740,
+      "y": 470,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "db_txt",
+      "x": 782.5,
+      "y": 492.5,
+      "text": "SQLite/Postgres\nPersistent Data",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 118.001953125,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 11787551
+    },
+    {
+      "type": "rectangle",
+      "id": "alembic",
+      "x": 980,
+      "y": 470,
+      "width": 170,
+      "height": 90,
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "alembic_txt",
+      "x": 1020,
+      "y": 492.5,
+      "text": "Alembic\nMigrations",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 78.99609375,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 2061191249
+    },
+    {
+      "type": "rectangle",
+      "id": "seed",
+      "x": 980,
+      "y": 600,
+      "width": 170,
+      "height": 90,
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "seed_txt",
+      "x": 1006.5,
+      "y": 622.5,
+      "text": "Seed Script\nDemo Data IDs",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 112.9658203125,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 697884991
+    },
+    {
+      "type": "rectangle",
+      "id": "webhooks",
+      "x": 740,
+      "y": 620,
+      "width": 220,
+      "height": 110,
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "webhooks_txt",
+      "x": 762,
+      "y": 635,
+      "text": "Webhook Dispatcher\nmission.status_changed\nbounty.updated\nlisting_sold",
+      "fontSize": 16,
+      "strokeColor": "#1e1e1e",
+      "width": 151.5390625,
+      "height": 35,
+      "baseline": 70,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 30414385
+    },
+    {
+      "type": "rectangle",
+      "id": "ext",
+      "x": 980,
+      "y": 740,
+      "width": 170,
+      "height": 80,
+      "backgroundColor": "#eebefa",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "ext_txt",
+      "x": 1001,
+      "y": 760,
+      "text": "External\nWebhook Receiver",
+      "fontSize": 16,
+      "strokeColor": "#1e1e1e",
+      "width": 121.78125,
+      "height": 35,
+      "baseline": 33,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 1401446751
+    },
+    {
+      "type": "arrow",
+      "id": "a1",
+      "x": 230,
+      "y": 205,
+      "width": 110,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "client",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "routers",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a2",
+      "x": 230,
+      "y": 345,
+      "width": 110,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "docs",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "routers",
+        "fixedPoint": [
+          0,
+          0.2
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a3",
+      "x": 230,
+      "y": 485,
+      "width": 110,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "tests",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "auth",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a4",
+      "x": 230,
+      "y": 625,
+      "width": 110,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "obs",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "cross",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a5",
+      "x": 480,
+      "y": 250,
+      "width": 0,
+      "height": 50,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "routers",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "mw",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a6",
+      "x": 480,
+      "y": 390,
+      "width": 0,
+      "height": 50,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "mw",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "auth",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a7",
+      "x": 620,
+      "y": 205,
+      "width": 120,
+      "height": 5,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          120,
+          5
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "routers",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "services",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a8",
+      "x": 960,
+      "y": 210,
+      "width": 20,
+      "height": 10,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          10
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "services",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "rules",
+        "fixedPoint": [
+          0,
+          0.3
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a9",
+      "x": 850,
+      "y": 260,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "services",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "orm",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a10",
+      "x": 850,
+      "y": 410,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "orm",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "db",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a11",
+      "x": 960,
+      "y": 515,
+      "width": 20,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "db",
+        "fixedPoint": [
+          1,
+          0.5
+        ]
+      },
+      "endBinding": {
+        "elementId": "alembic",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a12",
+      "x": 1065,
+      "y": 560,
+      "width": 0,
+      "height": 40,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "alembic",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "seed",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a13",
+      "x": 740,
+      "y": 260,
+      "width": 0,
+      "height": 360,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          360
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "services",
+        "fixedPoint": [
+          0,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "webhooks",
+        "fixedPoint": [
+          0,
+          0
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "arrow",
+      "id": "a14",
+      "x": 960,
+      "y": 700,
+      "width": 20,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startBinding": {
+        "elementId": "webhooks",
+        "fixedPoint": [
+          1,
+          0.7
+        ]
+      },
+      "endBinding": {
+        "elementId": "ext",
+        "fixedPoint": [
+          0,
+          0.5
+        ]
+      },
+      "lastCommittedPoint": null
+    },
+    {
+      "type": "rectangle",
+      "id": "schemas",
+      "x": 980,
+      "y": 365,
+      "width": 170,
+      "height": 80,
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "schemas_txt",
+      "x": 1010,
+      "y": 385,
+      "text": "Pydantic\nSchemas",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "width": 100,
+      "height": 35,
+      "baseline": 37,
+      "updated": 1775560852065,
+      "version": 2,
+      "versionNonce": 182872402
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
